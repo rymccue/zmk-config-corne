@@ -200,7 +200,7 @@
 &trans  &kp B      &kp L      &kp D         &kp C      &kp V        &kp J    &kp Y      &kp O             &kp U      &kp COMMA   &trans
 &trans  &kp LG(N)  &kp LA(R)  &kp LC(T)     &kp LS(S)  &kp G        &kp P    &kp RS(H)  &kp RC(A)         &kp LA(E)  &kp LG(I)   &trans
 &trans  &kp X      &kp Q      &kp M         &kp W      &kp Z        &kp K    &kp F      &kp SINGLE_QUOTE  &kp SEMI   &kp PERIOD  &trans
-                              &lt 2 ESCAPE  &mo 1      &kp SPACE    &kp RET  &lt 2 TAB  &kp RIGHT_ALT
+                              &lt 3 ESCAPE  &lt 1 TAB  &kp SPACE    &kp RET  &lt 2 TAB  &kp RIGHT_ALT
             >;
         };
 
@@ -241,10 +241,10 @@
         ADJ {
             display-name = "System";
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4      &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &trans
-&trans  &kp F11       &kp F12       &trans        &trans      &trans            &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &bootloader  &trans
-                                    &trans        &trans      &trans            &trans  &trans  &trans
+&trans  &kp F1        &kp F2        &kp F3        &kp F4      &kp F5            &kp F6  &kp F7            &kp F8      &kp F9  &kp F10      &trans
+&trans  &kp F11       &kp F12       &trans        &trans      &trans            &trans  &kp K_PREV        &trans      &trans  &trans       &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans            &trans      &trans  &bootloader  &trans
+                                    &trans        &trans      &trans            &trans  &kp K_PLAY_PAUSE  &kp K_MUTE
             >;
         };
     };
