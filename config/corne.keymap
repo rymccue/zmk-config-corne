@@ -190,7 +190,7 @@
 &trans  &kp B           &kp L           &kp D         &kp C             &kp V        &kp J    &kp Y              &kp O             &kp U            &kp COMMA        &trans
 &trans  &hm LEFT_GUI N  &hm LEFT_ALT R  &hm LCTRL T   &hm LEFT_SHIFT S  &kp G        &kp P    &hm RIGHT_SHIFT H  &hm RCTRL A       &hm RIGHT_ALT E  &hm RIGHT_GUI I  &trans
 &trans  &kp X           &kp Q           &kp M         &kp W             &kp Z        &kp K    &kp F              &kp SINGLE_QUOTE  &kp SEMI         &kp PERIOD       &trans
-                                        &lt 2 ESCAPE  &lt 1 TAB         &kp SPACE    &kp RET  &lt 3 BACKSPACE    &kp DELETE
+                                        &lt 2 ESCAPE  &lt 1 TAB         &kp SPACE    &kp RET  &kp BACKSPACE      &lt 3 DELETE
             >;
         };
 
